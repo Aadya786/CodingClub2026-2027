@@ -1,0 +1,7 @@
+with open("input.txt", "r") as f:
+    data = f.read().split("/n")
+
+pointer = 50
+counter = 0
+
+for line in data:
